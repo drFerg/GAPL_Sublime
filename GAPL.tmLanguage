@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>gapl</string>
+	</array>
+	<key>name</key>
+	<string>Glasgow Automaton</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(int|real|string|bool|tstamp|identifier|sequence|window|indentifier|map)\b</string>
+			<key>name</key>
+			<string>storage.type.gapl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(subscribe|associate|to|with|behavior|initialization|if|else|while|for|Map|Window|destroy|ROWS|SECS)\b</string>
+			<key>name</key>
+			<string>keyword.control.gapl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(float|Identifier|lookup|average|stdDev|currentTopic|Iterator|next|tstampNow|tstampDelta|tstampDiff|Timestamp|dayInWeek|hourInDay|dayInMonth|Sequence|hasEntry|hasNext|String|seqElement|seqSize|IP4Addr|IP4Mask|matchNetwork|secondInMinute|minuteInHour|monthInYear|yearIn|power|winSize|lsqrf|winMax|floor|mapSize|winElement|topOfHeap|insert|remove|send|append|publish|frequent)\b</string>
+			<key>name</key>
+			<string>support.function.gapl</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>end</key>
+			<string>'</string>
+			<key>name</key>
+			<string>string.quoted.double.gapl</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.gapl</string>
+	<key>uuid</key>
+	<string>547ecdb9-930c-4732-a094-c3d4c0f9d1e1</string>
+</dict>
+</plist>
