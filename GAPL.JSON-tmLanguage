@@ -6,13 +6,13 @@
 
   "patterns": [{
     "name": "storage.type.gapl",
-    "match": "\\b(int|real|string|bool|tstamp|identifier|sequence|window|indentifier|map)\\b"
+    "match": "\\b(int|real|string|bool|tstamp|identifier|sequence|window|iterator|map)\\b"
     }, {  
     "name": "keyword.control.gapl",
     "match": "\\b(subscribe|associate|to|with|behavior|initialization|if|else|while|for|Map|Window|destroy|ROWS|SECS)\\b"
     }, {  
     "name": "support.function.gapl",
-    "match": "\\b(float|Identifier|lookup|average|stdDev|currentTopic|Iterator|next|tstampNow|tstampDelta|tstampDiff|Timestamp|dayInWeek|hourInDay|dayInMonth|Sequence|hasEntry|hasNext|String|seqElement|seqSize|IP4Addr|IP4Mask|matchNetwork|secondInMinute|minuteInHour|monthInYear|yearIn|power|winSize|lsqrf|winMax|floor|mapSize|winElement|topOfHeap|insert|remove|send|append|publish|frequent)\\b"
+    "match": "\\b(print|float|Identifier|lookup|average|stdDev|currentTopic|Iterator|next|tstampNow|tstampDelta|tstampDiff|Timestamp|dayInWeek|hourInDay|dayInMonth|Sequence|hasEntry|hasNext|String|seqElement|seqSize|IP4Addr|IP4Mask|matchNetwork|secondInMinute|minuteInHour|monthInYear|yearIn|power|winSize|lsqrf|winMax|floor|mapSize|winElement|topOfHeap|insert|remove|send|append|publish|frequent)\\b"
     }, { 
     "name": "string.quoted.double.gapl",
     "begin": "'",
